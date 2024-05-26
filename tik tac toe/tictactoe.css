@@ -1,0 +1,45 @@
+#wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+#table-js {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+#table-js td {
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2596be;
+    cursor: pointer;
+}
+#table-js td.empty {
+    cursor: pointer;
+}
+#table-js td.taken {
+    cursor: not-allowed;
+}
+.buttons-js {
+    text-align: center;
+    padding: 15px 35px;
+    border-radius: 15px;
+    margin: 0px 15px;
+    font-weight: bold;
+    background-color: #2596be;
+    color: white;
+    border: 2px solid #2596be;
+}
+
+.buttons-js:hover {
+    cursor: pointer;
+    background-color: rgba(37, 150, 190, 0.8);
+}
